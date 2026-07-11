@@ -1,0 +1,16 @@
+ГОТОВО: Google Таблица + письмо на artemcepko69@gmail.com
+
+1. Создайте новую Google Таблицу.
+2. Откройте Расширения → Apps Script.
+3. Вставьте код из google-apps-script/Code.gs.
+4. Разверните как Web app:
+   - Execute as: Me
+   - Who has access: Anyone
+5. Скопируйте URL, заканчивающийся на /exec.
+6. В index.html найдите PASTE_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE
+   и вставьте URL вместо этой надписи.
+7. Замените index.html в GitHub-репозитории vika.
+8. Старые файлы Telegram/Vercel можно удалить:
+   api/, confirm.js, server.js, package.json, package-lock.json, vercel.json.
+
+Полная инструкция находится в README.md.
